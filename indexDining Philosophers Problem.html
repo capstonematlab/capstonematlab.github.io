@@ -36,17 +36,8 @@
         
         });
     </script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        
-        ga('create', 'UA-88073897-1', 'auto');
-        ga('send', 'pageview');
-        
-    </script>
-
+   
+    
     <style>
         pre {
         display: inline-block;
@@ -63,7 +54,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
-                <li class="active"><a href="https://matlab.mathworks.com/users/gareth/Published/ReferenceApplications/index.html">MathWorks Reference Applications</a>
+                <li><a href="https://matlab.mathworks.com/users/gareth/Published/ReferenceApplications/index.html">MathWorks Reference Applications</a>
                 <li><a href="http://nl.mathworks.com/matlabcentral/fileexchange/">File Exchange</a>
                 <li><a href="https://www.mathworks.com/examples/">MATLAB Examples</a>
                 <li><a href="http://nl.mathworks.com/matlabcentral/answers/index/">MATLAB Answers</a>
@@ -93,8 +84,8 @@
                      data-ride="carousel" data-interval="7000">
                     <div class="carousel-inner">
                         <div class="item active"
-                             style="background-image: url(img/modelbaseddesign.png);">
-                            <img src="./img/modelbaseddesign.png" class="visible-xs">
+                             style="background-image: url(img/ltc.png);">
+                            <img src="./img/ltc.png" class="visible-xs">
                         </div>
                     </div>
                 </div>
@@ -106,13 +97,9 @@
                     <div class="col-xs-12">
                         <div class="row">
                             <div class="col-xs-12 text-center">
-                                <h1>MathWorks Reference Applications - How creative are you?</h1>
-                                <p>Have you ever wanted to help MathWorks? 
-                                Here is a list of open projects we could use your help with.</p>
-                                <p><i><b>Step 1 - Find a project:</b> Click on one of the Projects.</i></p>
-                                <p><i><b>Step 2 - Collaborate:</b> Work with others via GitHub</i></p>
-                                <p><i><b>Step 3 - Share your work:</b> Create YouTube Video and tag it with <b>MATLABReference</b></i></p>
-                                <p><i><b>Step 4 - Be Recognized:</b>Win Prizes based on your contributions</i></p>
+                                <h1>Dining Philosophers Problem</h1>
+                                <p>Four philosophers are seated at a table, spending their lives in an infinite cycle of thinking and eating. A philosopher must pick up both forks before he can eat. You can think of the philosophers as concurrent processes and the forks as shared resources. The problem is to determine the policy or algorithm so that each philosphers gets to eat and does not starve. For example, one algorithm is for each philosopher to pick up first the fork to his right, then the fork to his left, before he eats. That this will eventually lead to a deadlock situation where all of the philosophers are holding one fork, waiting for each other to put down their forks.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -122,71 +109,72 @@
         <div class="content_container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 ">
-                        <table>
-                            <h2>Join one of these Projects</h2>
-                            <thead>
-                                <th>Project</th>
-                                <th>GitHub Link</th>
-                                <th>Application</th>
-                                <th>Release</th>
-                                <th>Recommended MathWorks Products</th>
-                                <th>Recommended Features</th>
-                                <th>Type</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><a href="indexDining Philosophers Problem.html">Dining Philosophers Problem</a></td>
-                                    <td>TBD</td>
-                                    <td><a href="https://nl.mathworks.com/solutions/industrial-automation-machinery/">Industrial Automation & Machinery</a></td>
-                                    <td><a href="https://nl.mathworks.com/products/new_products/latest_features.html">R2016b</a></td>
-                                    <td><a href="https://nl.mathworks.com/products/simevents/">SimEvents</a></td>
-                                    <td>Messages</td>
-                                    <td>Example</td>
-                                </tr>
-                                <tr>
-                                    <td>Just-in-Time Builds</td>
-                                    <td>TBD</td>
-                                    <td>Automotive</td>
-                                    <td>R2016b</td>
-                                    <td>Simulink</td>
-                                    <td>Accelerator Mode</td>
-                                    <td>Example</td>
-                                </tr>
-                                <tr>
-                                    <td>Schedualing Messages</td>
-                                    <td>TBD</td>
-                                    <td>Aero</td>
-                                    <td>R2016b</td>
-                                    <td>Stateflow</td>
-                                    <td>Messages and Events</td>
-                                    <td>Example</td>
-                                </tr>
-                                <tr>
-                                    <td>Model of Lithium Ion battery.</td>
-                                    <td>TBD</td>
-                                    <td>Automotive</td>
-                                    <td>R2016b</td>
-                                    <td>Simulink, Simscape</td>
-                                    <td>Library, Custome Simscape Blocks</td>
-                                    <td>Example, Simulation</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="row">
-                            <div class="col-md-12 ">
-                                <h2>Never worked with Git or GitHub? Don't worry here are some guides</h2>
-                                <ul>
-                                    <li><a href="https://guides.github.com/introduction/flow/">GitHub Workflow - 5m Read</a></li>
-                                    <li><a href="https://guides.github.com/activities/hello-world/">GitHub Hello World - 10m Read</a></li>
-                                    <li><a href="https://guides.github.com/activities/contributing-to-open-source/">Contributing to Open Source - 6m Read</a></li>
-                                    <li><a href="https://guides.github.com/features/pages/">GitHub Start Pages - 10m Read</a></li>
-                                    <li><a href="https://guides.github.com/activities/forking/">GitHub Forking - 4m Read</a></li>
-                                    <li><a href="https://guides.github.com/activities/citable-code/">GitHub Making your code Citable - 10m Read</a></li>
-                                    <li><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf">GitHub Cheatsheet</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-xs-12">
+                        <h2>Exact Expectations</h2>
+                        Create a well documented mlx file that shows:
+                        (1) 1 or more Simulink models that can simulate a deadlock and the avoidance of a deadlock
+                        (2) When Simulation is running a nice visualization using custom visualizations
+                        (3) Output of a Gantt chart cycling between hungry/eating/thinking
+                        (4) Tag your YouTube Video with <b>MATLABReference</b>
+                        (5) Example should be easy to read and follow
+                        (6) English is prefered language. Feel free to translate to your own languague
+                        (7) List your reference literature
+                        (8) Share your work with MathWorks. (FileExchange)
+                        <h3>Tips and Tricks</h3>
+                        <p>Make sure that the documentation you create complies with:<a href="https://www.mathworks.com/help/releases/R2016b/matlab/matlab_prog/display-custom-documentation.html#responsive_offcanvas">Custom Documentation</a> </p>
+                        <p>If you would like to create multiple examples, files that is fine as long as the documentation works</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h2>Goal/Motivation</h2>
+                        <ul>
+                            <li>YouTube Video Tagged <b>#MATLABReference</b> - Free MATLAB T-shirt</li>
+                            <li>Heavy GitHub Contributor on a project - MATLAB Rubiks Cube + Stickers</li>
+                            <li>YouTube Video over 500 views - Free MATLAB Academy Training</li>
+                            <li>YouTube Video over 1000 views - Arduino Starter Kit / Parrot Drone (around 100 dollar gift)</li>
+                            <li>YouTube Video over 2000 views - Free trip to MATLAB Expo + booth</li>
+                            <li>Cited in a Research Paper / Thesis and shared with MathWorks (Link Exchange) - Free MATLAB Cap</li>
+                            <li>Cited in a Research Paper accepted at a Conference sponsored by MathWorks - LinkedIn Recommendation</li>
+                        </ul>     
+                    </div>
+                    
+                    <div class="col-xs-6">
+                        <h2>Getting Started</h2>
+                        <ol>
+                            <li>Create Branch at GitHub Link</li>
+                            <li>Add Commits</li>
+                            <li>Open Pull Request</li>
+                            <li>Discuss and Review Code</li>
+                            <li>Deploy Code</li>
+                            <li>Make YouTube Video with <b>#MATLABReference</b></li>                            
+                        </ol>
+                        <h3>Please note:</h3>
+                        <p>If you have questions/comments add them to GitHub Repository</p>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h2>Recommended Features</h2>
+                        <ul>
+                            <li><a href="https://www.mathworks.com/help/releases/R2016b/simevents/blocklist.html?s_cid=doc_ftr">SimEvents Blocks</a></li>
+                            <li><a href="https://nl.mathworks.com/help/stateflow/messages.html">Stateflow Messages</a></li>
+                            <li><a href="https://www.mathworks.com/help/releases/R2016b/simevents/ref/simevents.simulationobserver-class.html">simevents.SimulationObserver class</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h2>Getting Started Tutorials</h2>
+                        <ul>
+                            <li><a href="https://nl.mathworks.com/products/simevents/videos.html">SimEvents Videos</a></li>
+                            <li><a href="https://nl.mathworks.com/products/stateflow/">Stateflow</a></li>
+                            <li><a href="https://nl.mathworks.com/help/stateflow/messages.html">Simulink Messages</a></li>
+                            <li><a href="https://nl.mathworks.com/help/simevents/examples.html">SimEvents Examples</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h2>Proposed by</h2>
+                        Development by Mani team at MathWorks based on <a href="https://en.wikipedia.org/wiki/Dining_Philosophers_Problem">Dining Philosophers Problem - Wikipedia</a>
                     </div>
                 </div>
             </div>
