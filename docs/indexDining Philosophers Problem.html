@@ -1,0 +1,279 @@
+<html>
+    <title>Tech Expert Market Place</title>
+    <link rel="stylesheet" type="text/css" href="https://nl.mathworks.com/includes_content/responsive/css/site6.css">
+    
+    <link
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+        rel="stylesheet">
+    <link
+        href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script
+        src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js">
+    </script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+        $('table').DataTable({
+        "scrollY" : "200px",
+        "scrollCollapse" : true,
+        "paging" : false,
+        "order" : [],
+        "dom" : "Bfrtip",
+        "buttons" : [
+        "csvHtml5"
+        ] 
+        });
+        $(".loadingImage").fadeOut("slow");
+        
+        });
+    </script>  
+    <style>
+        pre {
+        display: inline-block;
+        }
+        
+        td, th {
+        padding: 8px 10px;
+        border: 1px solid #d6d6d6;
+        border-collapse: collapse;
+        }
+    </style>
+    
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                <li><a href="https://capstonematlab.github.io/index.html">Tech Expert Market Place</a>
+                <li><a href="http://nl.mathworks.com/matlabcentral/fileexchange/">File Exchange</a>
+                <li><a href="https://www.mathworks.com/examples/">MATLAB Examples</a>
+                <li><a href="http://nl.mathworks.com/matlabcentral/answers/index/">MATLAB Answers</a>
+                <li><a href="https://nl.mathworks.com/videos/search.html">MATLAB Videos</a>
+                <li><a href="https://matlabacademy.mathworks.com/">MATLAB Academy</a>
+                <li><a href="http://blogs.mathworks.com/">MathWorks Blogs</a>
+            </div>
+        </nav>
+        <div class="sticky_header_container affix-top">
+            <!-- Section Header: Start -->
+            <div class="section_header level_3">
+                <div class="container">
+                    <div class="row" id="mobile_search_row">
+                        <div class="col-xs-12"></div>
+                    </div>
+                    <!-- Section Header: End -->
+                    <!-- Mobile Local Nav: Start -->
+                    <!-- Mobile Local Nav: End -->
+                </div>
+            </div>
+            <!-- Horo Nav: Start -->
+            <!-- Horo Nav: End -->
+        </div>
+        <div class="full_banner_container">
+            <div class="full_banner small">
+                <div id="rotating_features" class="carousel slide add_margin_0"
+                     data-ride="carousel" data-interval="7000">
+                    <div class="carousel-inner">
+                        <div class="item active"
+                             style="background-image: url(img/ltc.png);">
+                            <img src="./img/ltc.png" class="visible-xs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body_lead_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <h1>Dining Philosophers Problem</h1>
+                                <p>Four philosophers are seated at a table, spending their lives in an infinite cycle of thinking and eating. A philosopher must pick up both forks before he can eat. You can think of the philosophers as concurrent processes and the forks as shared resources. The problem is to determine the policy or algorithm so that each philosphers gets to eat and does not starve. For example, one algorithm is for each philosopher to pick up first the fork to his right, then the fork to his left, before he eats. That this will eventually lead to a deadlock situation where all of the philosophers are holding one fork, waiting for each other to put down their forks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Exact Expectations</h2>
+                        Create a well documented mlx file that shows:
+                        (1) 1 or more Simulink models that can simulate a deadlock and the avoidance of a deadlock
+                        (2) When Simulation is running a nice visualization using custom visualizations
+                        (3) Output of a Gantt chart cycling between hungry/eating/thinking
+                        (4) Tag your YouTube Video with <b>MATLABReference</b>
+                        (5) Example should be easy to read and follow
+                        (6) English is prefered language. Feel free to translate to your own languague
+                        (7) List your reference literature
+                        (8) Share your work with MathWorks. (FileExchange)
+                        <h3>Tips and Tricks</h3>
+                        <p>Make sure that the documentation you create complies with:<a href="https://www.mathworks.com/help/releases/R2016b/matlab/matlab_prog/display-custom-documentation.html#responsive_offcanvas">Custom Documentation</a> </p>
+                        <p>If you would like to create multiple examples, files that is fine as long as the documentation works</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h2>Goal/Motivation</h2>
+                        <ul>
+                            <li>YouTube Video Tagged <b>#MATLABReference</b> - Free MATLAB T-shirt</li>
+                            <li>Heavy GitHub Contributor on a project - MATLAB Rubiks Cube + Stickers</li>
+                            <li>YouTube Video over 500 views - Free MATLAB Academy Training</li>
+                            <li>YouTube Video over 1000 views - Arduino Starter Kit / Parrot Drone (around 100 dollar gift)</li>
+                            <li>YouTube Video over 2000 views - Free trip to MATLAB Expo + booth</li>
+                            <li>Cited in a Research Paper / Thesis and shared with MathWorks (Link Exchange) - Free MATLAB Cap</li>
+                            <li>Cited in a Research Paper accepted at a Conference sponsored by MathWorks - LinkedIn Recommendation</li>
+                        </ul>     
+                    </div>
+                    
+                    <div class="col-xs-6">
+                        <h2>Getting Started</h2>
+                        <ol>
+                            <li>Create Branch at GitHub Link</li>
+                            <li>Add Commits</li>
+                            <li>Open Pull Request</li>
+                            <li>Discuss and Review Code</li>
+                            <li>Deploy Code</li>
+                            <li>Make YouTube Video with <b>#MATLABReference</b></li>                            
+                        </ol>
+                        <h3>Please note:</h3>
+                        <p>If you have questions/comments add them to GitHub Repository</p>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h2>Recommended Features</h2>
+                        <ul>
+                            <li><a href="https://www.mathworks.com/help/releases/R2016b/simevents/blocklist.html?s_cid=doc_ftr">SimEvents Blocks</a></li>
+                            <li><a href="https://nl.mathworks.com/help/stateflow/messages.html">Stateflow Messages</a></li>
+                            <li><a href="https://www.mathworks.com/help/releases/R2016b/simevents/ref/simevents.simulationobserver-class.html">simevents.SimulationObserver class</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h2>Getting Started Tutorials</h2>
+                        <ul>
+                            <li><a href="https://nl.mathworks.com/products/simevents/videos.html">SimEvents Videos</a></li>
+                            <li><a href="https://nl.mathworks.com/products/stateflow/">Stateflow</a></li>
+                            <li><a href="https://nl.mathworks.com/help/stateflow/messages.html">Simulink Messages</a></li>
+                            <li><a href="https://nl.mathworks.com/help/simevents/examples.html">SimEvents Examples</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h2>Proposed by</h2>
+                        Development by Mani team at MathWorks based on <a href="https://en.wikipedia.org/wiki/Dining_Philosophers_Problem">Dining Philosophers Problem - Wikipedia</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer id="footer" class="bs-footer"> 
+            <!-- FAT FOOTER - Begin --> 
+            <div class="fat_footer_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="grid_192">
+                                <div class="fat_footer">
+                                    <div class="execmatlabweb"> <!--Requried for Doc Test -->
+                                        <div class="row">
+                                            <div class="col-xs-12 col-md-12 col-lg-9 col-lg-push-3 add_margin_20">
+                                                <div class="row">
+                                                    <div class="col-xs-12 col-sm-2">
+                                                        <h5>Explore Products</h5>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="https://www.mathworks.com/products/matlab/?s_tid=hp_ff_p_matlab">MATLAB</a></li>
+                                                            <li><a href="https://www.mathworks.com/products/simulink/?s_tid=hp_ff_p_simulink">Simulink</a></li>
+                                                            <li><a href="https://www.mathworks.com/academia/student_version/?s_tid=hp_ff_p_student">Student Software</a></li>
+                                                            <li><a href="https://www.mathworks.com/hardware-support/home.html?s_tid=hp_ff_p_hwsupport">Hardware Support</a></li>
+                                                            <li><a href="https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=hp_ff_p_fx">File Exchange</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-2">
+                                                        <h5>Try or Buy</h5>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="https://www.mathworks.com/downloads/web_downloads/?s_iid=hp_ff_t_downloads">Downloads</a></li>
+                                                            <li><a href="https://www.mathworks.com/programs/trials/trial_request.html?s_iid=hp_ff_p_trial">Trial Software</a></li>
+                                                            <li><a href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html?s_iid=hp_ff_t_sales">Contact Sales</a></li>
+                                                            <li><a href="https://www.mathworks.com/pricing-licensing/?s_iid=hp_ff_t_pricing">Pricing and Licensing</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-2">
+                                                        <h5>Learn to Use</h5>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="https://www.mathworks.com/help/?s_tid=hp_ff_l_doc">Documentation</a></li>
+                                                            <li><a href="https://www.mathworks.com/support/learn-with-matlab-tutorials.html?s_tid=hp_ff_l_tutorials">Tutorials</a></li>
+                                                            <li><a href="https://www.mathworks.com/examples/?s_tid=hp_ff_l_examples">Examples </a></li>
+                                                            <li><a href="https://www.mathworks.com/videos/?s_tid=hp_ff_l_videos">Videos and Webinars</a></li>
+                                                            <li><a href="https://www.mathworks.com/services/training/?s_tid=hp_ff_l_training">Training</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="clearfix" id="offcanvas_clearfix" style="display:none"></div>
+                                                    <div class="col-xs-12 col-sm-2">
+                                                        <h5>Get Support</h5>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="https://www.mathworks.com/support/install-matlab.html?s_tid=hp_ff_s_install">Installation Help</a></li>
+                                                            <li><a href="https://www.mathworks.com/matlabcentral/answers/?s_tid=hp_ff_s_answers">Answers </a></li>
+                                                            <li><a href="https://www.mathworks.com/services/consulting/?s_tid=hp_ff_s_consulting">Consulting</a></li>
+                                                            <li><a href="https://www.mathworks.com/licensecenter/?s_tid=hp_ff_s_license">License Center</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-2">
+                                                        <h5>About MathWorks</h5>
+                                                        <ul class="list-unstyled">
+                                                            <li><a href="https://www.mathworks.com/company/jobs/opportunities/?s_tid=hp_ff_a_careers">Careers</a></li>
+                                                            <li><a href="https://www.mathworks.com/company/?s_tid=hp_ff_a_company">Company Overview</a></li>
+                                                            <li><a href="https://www.mathworks.com/company/newsroom/?s_tid=hp_ff_a_newsroom">Newsroom</a></li>
+                                                            <li><a href="https://www.mathworks.com/company/aboutus/soc_mission/?s_tid=hp_ff_a_socialmission">Social Mission</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-md-12 col-lg-3 col-lg-pull-9">
+                                                <h4 class="add_font_futura_medium add_margin_0">MathWorks</h4>
+                                                <p><em>Accelerating the pace of engineering and science</em></p>
+                                                <p>MathWorks is the leading developer of mathematical computing software for engineers and scientists.</p>
+                                                <p><a href="https://www.mathworks.com/discovery/">Discover...</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FAT FOOTER - End -->
+            <!-- BASIC FOOTER CONTENT - Begin --> 
+            <div class="container"> 
+            <div class="footer" translate="no">
+            <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <div class="clearfix"></div>
+                <ul class="footernav">
+                    <li class="footernav_patents"><a href="http://nl.mathworks.com/company/aboutus/policies_statements/patents.html?s_tid=gf_pat">Patents</a></li>
+                    <li class="footernav_trademarks"><a href="http://nl.mathworks.com/company/aboutus/policies_statements/trademarks.html?s_tid=gf_trd">Trademarks</a></li>
+                    <li class="footernav_privacy"><a href="http://nl.mathworks.com/company/aboutus/policies_statements/?s_tid=gf_priv">Privacy Policy</a></li>
+                    <li class="footernav_piracy"><a href="http://nl.mathworks.com/company/aboutus/policies_statements/piracy.html?s_tid=gf_pir">Preventing Piracy</a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="clearfix"></div>
+                <p class="copyright" translate="no">1994-2016 The MathWorks, Inc.</p>
+            </div>
+            
+            <!-- BASIC FAT FOOTER CONTENT - End -->
+        </footer>
+        
+    </body>
+</html>
